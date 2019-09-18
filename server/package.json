@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "12.9.1",
+    "npm": "6.10.3",
+    "yarn": "1.17.3"
+  },
+  "repository": "https://github.com/Rich63/udemy-nodejs-fullstack.git",
+  "author": "RO",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
