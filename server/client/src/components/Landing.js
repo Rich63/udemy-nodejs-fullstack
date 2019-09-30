@@ -2,7 +2,7 @@ import React from 'react'
 
 const Landing = () => {
   return (
-    <div className='container center' >
+    <div className='center' >
       <h1>
         Emaily!
       </h1>
