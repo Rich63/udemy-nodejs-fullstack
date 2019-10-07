@@ -17,11 +17,29 @@
 // }
 
 // below code does the same as above
-const fetchAlbums = async () => {
-  const res = await fetch('https://rallycoding.herokuapp.com/api/music_albums')
-  const json = await res.json()
+// const fetchAlbums = async () => {
+//   const res = await fetch('https://rallycoding.herokuapp.com/api/music_albums')
+//   const json = await res.json()
   
-  console.log(json)
-}
+//   console.log(json)
+// }
 
-fetchAlbums()
+// fetchAlbums()
+
+// This comes from part 190
+Survey.findOne({
+  id: surveyId,
+  recipients: {
+    $elemMatch: { email: email, responded: false }
+  }
+})
+
+// This comes from part 190
+Survey.updateOne({
+  id: surveyId,
+  recipients: {
+    $elemMatch: { email: email, responded: false }
+  }
+}, {
+  
+})
