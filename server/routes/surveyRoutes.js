@@ -1,4 +1,4 @@
-// see Flow creating new survey.png
+// see Flow creating new survey.png just to get the last result i added this text
 const _ = require('lodash')
 const { Path } = require('path-parser')
 const { URL } = require('url')
